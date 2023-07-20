@@ -3,6 +3,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 //  * Imports
 import Login from "./pages/Login";
+import Home from "./pages/Home";
 
 // *
 const router = createBrowserRouter([
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <p>Aqui va la tabla de movimientos diarios y el menu lateral</p>,
+    element: <Home />,
   },
   {
     path: "/products",
