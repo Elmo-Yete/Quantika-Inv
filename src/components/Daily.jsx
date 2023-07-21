@@ -1,7 +1,7 @@
 export default function Daily() {
   return (
     <>
-      <article className="flex gap-5 bg-gray-700 justify-around">
+      <article className="flex  justify-around ">
         <div>
           <p>25</p>
         </div>
