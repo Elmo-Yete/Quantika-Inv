@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <main className="flex bg-white">
-        <aside className="w-1/4">
+        <aside className="w-2/12">
           <LeftAside />
         </aside>
         <article className="flex flex-col justify-center w-full  h-screen">

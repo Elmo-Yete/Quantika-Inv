@@ -4,7 +4,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 //  * Imports
 import Login from "./pages/Login";
 import Home from "./pages/Home";
-
+import Products from "./pages/Products";
+import AddProd from "./pages/AddProd";
 // *
 const router = createBrowserRouter([
   {
@@ -17,7 +18,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/products",
-    element: <p>aqui va a ir el inventario de todos los productos</p>,
+    element: <Products />,
+  },
+  {
+    path: "/patients",
+    element: <p>aqui van los pacientes</p>,
+  },
+  {
+    path: "/reports",
+    element: <p>aqui van los reportes</p>,
   },
   {
     path: "/detail",
@@ -25,7 +34,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/add-product",
-    element: <p>aqui va el form donde agregamos productos</p>,
+    element: <AddProd />,
   },
 ]);
 
