@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <>
-      <main className="min-h-screen flex justify-center items-center ">
-        <section className=" p-12 rounded-md bg-white w-1/4">
+      <main className="min-h-screen flex justify-center items-center bg-gray-200">
+        <section className=" p-12 rounded-lg bg-white w-1/4">
           <img />
           <div>
             <h1 className="text-3xl font-extrabold mb-3 text-center">Login</h1>
